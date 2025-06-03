@@ -1,0 +1,22 @@
+{
+  "name": "telegram-task-bot",
+  "version": "1.0.0",
+  "description": "Telegram Task & Referral Earnings Bot",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "telegraf": "^4.12.2",
+    "firebase-admin": "^11.11.0",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
